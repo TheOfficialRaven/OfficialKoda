@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <title>OfficialKoda</title>
+        <link rel="stylesheet" href="styles.css">
+    
+    </head>
+    
+    <body>
+        <nav>
+            
+            <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a> </li>
+            <li><a href="#news">Videók</a> </li>
+            <li><a href="#contact">Kapcsolat</a> </li>
+            <li><a href="#about">Rólam</a> </li>
+            <li class="topnav-right"><a href="#signup">Bejelentkezés</a> </li>
+            <li class="topnav-right"><a href="#signin">Regisztráció</a> </li>
+            <li class="dropdownIcon"><a href="javascript:void(0);"onclick="dropdownnMenu()">&#9776;</a> </li>
+            </ul>
+        
+        </nav>
+        
+        <div class="container" id="section-1-gradient">
+            
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftside-col">
+                        <h1 class="large">Ha tetszett a Videó</h1>
+                        <h1 class="large">Iratkozz fel!</h1>
+                    
+                    </div>
+                    <form>
+                        <div class="leftside-col">
+                        <h2>Felhasználónév</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="Felhasználónév">
+                            
+                        <h2>Jelszó</h2>
+                            <input class="inputbox" name="password" type="text" placeholder="Jelszó">
+                        
+                        </div>
+                    
+                    </form>
+                
+                </div>
+                <div class="col-6">
+                    <div class="rightside-col">
+                        <div class="videoContainer">
+                            
+                        <iframe width="350" height="200" src="https://www.youtube.com/embed/LHlXqLmM1wU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+        
+        </div>
+        
+        
+        <header>
+        <h1 class="section2Header">Ezeken a helyeken megtalálsz</h1>
+        </header>
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+             <div class="box">
+                <div class="icon">
+                    <img src="Koda%20Log%C3%B3.png">
+                 
+                </div>
+                 <label>Discord</label>
+                 <p>Discord Csatorna csatlakozásához Kattints Ide!</p>
+                
+                  
+             </div>
+            </div>
+            
+            <div class="col-4">
+             <div class="box">
+                <div class="icon">
+                    <img src="Koda%20Log%C3%B3.png">
+                 
+                </div>
+                 <label>Twitch</label>
+                 <p>Élőben is nézhetsz amikor épp Streamelek! Kattints hozzá Ide!</p>
+                
+                  
+             </div>
+            </div>
+            <div class="col-4">
+             <div class="box">
+                <div class="icon">
+                    <img src="Koda%20Log%C3%B3.png">
+                 
+                </div>
+                 <label>Youtube</label>
+                 <p>Twitch VOD-okat és Vágott Tartalmakat találsz ha ide kattintasz.</p>
+                
+                  
+             </div>
+            </div>
+            
+        </div>
+            <div class="row">
+             <div class="col-12">
+            <button class="LearnMore">Tudj Meg Többet!</button>    
+            </div>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <div class="container">
+            <div class="row">
+         <div class="col-7">
+          <article>
+            <p>Gépház:Cooler Master CM694 <br>Tápegység:LEADEX PLATINUM 2000W Super Flower<br> Videókártya:Asus ROG Strix RTX-4090 <br>Processzor:Ryzen 9 7950X <br>Proci Hűtő:Arctic Liquid Freezer II 420 A-RGB<br>Alaplap:Asus ROG Strix Z690-A <br>Gaming Egér:Glorious Model 0- <br>Headset:Corsair HS80 RGB <br>RAM:Kingston FURY Beast DDR5 32GB <br>SSD:Samsung 980 PRO 1TB, Samsung 870 QVO 1TB <br></p>   
+          </article>   
+         </div>
+            
+            <div class="col-5">
+            <div class="GamingSetup">
+            <img src="Gaming%20Setup.jpg">    
+            </div>
+            </div>
+        </div>
+    </div>
+        
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-3 mobileStack">
+                    <h1>Infó</h1>
+                    <ul>
+                    <li>Rólam</li>
+                    <li>Csatorna</li>
+                    <li>Gép</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Játékok</h1>
+                    <ul>
+                    <li>Sokat játszott</li>
+                    <li>Singeplayer</li>
+                    <li>Multiplayer</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Készítők</h1>
+                    <ul>
+                    <li>Honlap</li>
+                    <li>Design</li>
+                    <li>Galéria</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Csapat</h1>
+                    <ul>
+                    <li>Akikkel játszok</li>
+                    <li>Ismerősök</li>
+                    <li>Be tévedők</li>
+                    </ul>
+                </div>
+            
+            </div>
+        
+        </footer>
+             
+        <script>
+            function dropdownnMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /*change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        
+        </script>
+    
+    </body>
+    
+</html>
