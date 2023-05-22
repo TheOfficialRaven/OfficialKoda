@@ -89,8 +89,8 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666;
-    
+    color: #666; 
+    font-size: 16px;    
 }
 
 ul.topnav li a:hover {
@@ -209,9 +209,14 @@ footer.footsy ul li {
     ul.topnav li:not(:nth-child(1)) { 
         display: none;
     }
+    
     ul.topnav li.dropdownIcon {
         display: block;
         float: right;
+    }
+    
+    ul.topnav li a {
+        font-size: 30px;
     }
     
     ul.topnav.responsive li.dropdownIcon {
@@ -232,6 +237,7 @@ footer.footsy ul li {
     ul.topnav.responsive li a {
         display: block;
         text-align: left;
+        font-size: 30px;
     }
     
     h1.section2Header {
@@ -278,7 +284,7 @@ footer.footsy ul li {
     }
     .videoContainer iFrame {
         position: relative;
-        width: 100%;
+        width: 70%;
         margin: 0;
         overflow: hidden;
         
